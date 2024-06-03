@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  </head>
+  <body margin="auto">
+    <div style="padding-left:10rem; padding-right:10rem">
+      <!---nav-->
+      <nav class="navbar navbar-expand-sm bg-light justify-content-center">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="#carouselAchievements"> Home </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#Skills"> Skills </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#Experience"> Exp </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#Projects"> Projects </a>
+          </li>
+        </ul>
+      </nav>
+      <br>
+      <!--Carousel-->
+      <div id="carouselAchievements" class="carousel slide"
+        style="margin:auto;width:40vw;">
+        <h2 style="text-align:center">MONIKA JEA SUYOM NG</h2><br>
+        <div class="carousel-inner center" style="align-items:center">
+          <div class="carousel-item active">
+            <img src="achievement1.jpg" class="d-block w-100"
+              alt="Eat a lot in 1 sitting">
+          </div>
+          <div class="carousel-item">
+            <img src="achievement2.jpg" class="d-block w-100"
+              alt="Awakened to Plasma Power">
+          </div>
+          <div class="carousel-item">
+            <img src="achievement3.jpg" class="d-block w-100"
+              alt="Boss Child at 9">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button"
+          data-bs-target="#carouselAchievements" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button"
+          data-bs-target="#carouselAchievements" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <br><br><br>
+      <!--Grid Layout-->
+      <div id="Skills" class="row justify-content-center"
+        style="text-align:center">
+        <h3>Skills</h3>
+        <div class="col-sm-3"
+          style="border-bottom:1px solid black;margin:0px 10px">Web
+          Development</div>
+        <div class="col-sm-3"
+          style="border-bottom:1px solid black;margin:0px 10px">Java and C#
+          Programming</div>
+        <div class="col-sm-3"
+          style="border-bottom:1px solid black;margin:0px 10px">UI/UX</div>
+      </div>
+      <br><br><br>
+      <!--Table-->
+      <div id="Experience" >
+        <h3 style="text-align:center">Work</h3>
+        <table id="Work" class="table">
+          <thead>
+            <tr>
+              <th scope="col">Company</th>
+              <th scope="col">Position</th>
+              <th scope="col">Employed</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>BridgeTech Inc.</td>
+              <td>Head Researcher</td>
+              <td>20XX-Present</td>
+            </tr>
+            <tr>
+              <td>SimU Inc.</td>
+              <td>Junior Game Developer</td>
+              <td>20XX-20XX</td>
+            </tr>
+            <tr>
+              <td>SimU Inc.</td>
+              <td>Game Developer Intern</td>
+              <td>20XX-20XX</td>
+            </tr>
+          </tbody>
+        </table><br><br><br>
+        <table id="School" class="table">
+          <h3 style="text-align:center">School</h3>
+          <thead>
+            <tr>
+              <th scope="col">Institution/Company</th>
+              <th scope="col">Degree/Position</th>
+              <th scope="col">Years Attended/Employed</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Polytechnic University of the Philippines-Manila</td>
+              <td>Undergraduate</td>
+              <td>20XX-20XX</td>
+            </tr>
+            <tr>
+              <td>STI College Las Pinas</td>
+              <td>Senior High School Student</td>
+              <td>20XX-20XX</td>
+            </tr>
+            <tr>
+              <td>Las Pinas City National Science High School</td>
+              <td>Junior High School Student</td>
+              <td>20XX-20XX</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <br><br><br>
+      <!--Cards-->
+      <div id="Projects" style="text-align:center">
+        <h3 style="text-align:center">Projects</h3>
+        <div class="container"
+          style="display:flex; flex:wrap; justify-content:center;">
+          <div class="card"
+            style="width: 18rem;margin-right:30px;">
+            <img class="card-img-top" src="MatchaEMS.png" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Matcha Event Management System</h5>
+              <p class="card-text">Event Management System designed with Figma
+                and created by C#.</p>
+              <a
+                href="https://github.com/MonaJea-Ng/Matcha-Event-Management-System"
+                class="btn btn-primary">Github Repository</a>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem;margin-right:30px;">
+            <img class="card-img-top" src="WidgetEditor.png"
+              alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Mood Widget Editor</h5>
+              <p class="card-text">A cool Widget Editor you can edit according
+                to your mood!.</p>
+              <a
+                href="https://www.figma.com/design/sJzxGSFvmPyInala6XVT6R/Untitled?node-id=0-1&t=uEQiFO0KpZlBfIyz-1"
+                class="btn btn-primary">Figma</a>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem; ">
+            <img class="card-img-top" src="SNS.png" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Social Media App</h5>
+              <p class="card-text">Social Media App design created on Figma.</p>
+              <a href="#" class="btn btn-primary">Non-existent Link</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <br><br><br><br>
+    </div>
+  </body>
+</html>
